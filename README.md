@@ -10,6 +10,20 @@ full unit-test suite.
 > Course assignment — Multi-robot navigation with reinforcement learning.
 > Reference simulation videos are stored under [`videos/`](videos/).
 
+## Demo videos
+
+**Static scenario** — 15 fixed obstacles
+
+https://github.com/user-attachments/assets/f9082d1d-546f-473b-a5e4-33b43359172a
+
+**Dynamic scenario** — 15 moving obstacles
+
+https://github.com/user-attachments/assets/a992317e-3ffa-4bde-ae5e-4cc3f2aca1ec
+
+**Mixed scenario** — 8 static + 7 dynamic obstacles
+
+https://github.com/user-attachments/assets/faac5f00-c49a-4cce-9a58-716987b212e2
+
 ---
 
 ## 1. Repository structure
