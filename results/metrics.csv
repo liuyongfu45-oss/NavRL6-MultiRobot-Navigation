@@ -1,0 +1,4 @@
+scenario,success_rate,collision_rate,avg_steps,avg_path_length,avg_min_clearance,avg_reward,spl
+static,0.5333,0.1500,160.0000,22.3890,1.6712,56.6358,0.5006
+dynamic,0.7167,0.1167,157.9000,22.9273,1.8276,77.3174,0.6713
+mixed,0.7000,0.1167,158.7000,22.5108,1.7927,75.6489,0.6542
