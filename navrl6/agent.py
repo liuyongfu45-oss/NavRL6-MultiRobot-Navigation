@@ -75,8 +75,11 @@ class PPOAgent:
         # baseline; the learned policy only depends on the observation.
         obs_t = torch.as_tensor(obs, dtype=torch.float32, device=self.device)
         action, _, _ = self.model.act(obs_t, deterministic=deterministic)
-        action = action.cpu().numpy()
-        return action * config.ROBOT_MAX_SPEED
+        action = action.cpu().numpy() * config.ROBOT_MAX_SPEED
+        norm = np.linalg.norm(action)
+        if norm > config.ROBOT_MAX_SPEED:
+            action = action * config.ROBOT_MAX_SPEED / norm
+        return action
 
     # ------------------------------------------------------------------ #
     # PPO update
