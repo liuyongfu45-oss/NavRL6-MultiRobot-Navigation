@@ -42,6 +42,8 @@ NavRL6-MultiRobot-Navigation/
 │   └── figures/
 ├── videos/                     # Reference simulation videos
 ├── requirements.txt
+├── GITHUB_PUSH.md              # Steps to publish the repo on GitHub
+├── .gitignore
 └── README.md
 ```
 
